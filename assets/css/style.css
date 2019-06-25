@@ -96,6 +96,11 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+nav a:last-child {
+  margin-right: 10px;
+}
+
+
 /* footer */
 
 footer {
@@ -129,7 +134,7 @@ h3, h2 {
   width: 100%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 10px 40px 10px;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -217,23 +222,29 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  .main-section, .container{
-    max-width: 710px;
-    padding-right: 15px;
-    padding-left: 15px;
+  .main-section{
+    max-width: 940px;
+    
+  }
+
+  nav a:last-child {
+    margin-right: 10px;
   }
 
   .work {
     width: 300px;
+   
   }
 
 }
 
 @media screen and (max-width: 768px) {
-  .main-section, .container{
-    max-width: 768px;
-    padding-right: 15px;
-    padding-left: 15px;
+  .main-section{
+    max-width: 748px;
+  }
+
+  nav a:last-child {
+    margin-right: 10px;
   }
   
   .work {
@@ -243,10 +254,11 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   .main-section{
-    max-width: 640px;
-    padding-right: 15px;
-    padding-left: 15px;
+    max-width: 620px;
+  }
 
+  .auth-image {
+    width: 545px;
   }
 
   #masthead{
@@ -264,10 +276,7 @@ input[type=submit] {
     padding: 0;
   }
   
-  #main-container{
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+  
 
   nav{
     display: block;
@@ -275,10 +284,7 @@ input[type=submit] {
     text-align: center;
   }
   
-  .auth-image {
-    float: none;
-    width: 570px;
-  }
+  
 
   .work {
     width: 268px;
