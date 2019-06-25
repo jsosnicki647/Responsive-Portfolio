@@ -75,6 +75,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  margin-left: 10px;
 }
 
 nav {
@@ -127,7 +128,10 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  position: relative;
 }
+
+
 
 .main-section {
   float: left;
@@ -140,6 +144,14 @@ h3, h2 {
 }
 
 /* portfolio page */
+
+#img-gal {
+  position: absolute;
+  left: 10px;
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+  max-width: 704px;
+}
 
 .work {
   position: relative;
@@ -227,9 +239,7 @@ input[type=submit] {
     
   }
 
-  nav a:last-child {
-    margin-right: 10px;
-  }
+  
 
   .work {
     width: 300px;
