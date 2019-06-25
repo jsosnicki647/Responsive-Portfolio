@@ -229,7 +229,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .main-section{
-    max-width: 940px;
+    width: 75%;
     
   }
 
@@ -248,14 +248,19 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   .main-section{
-    max-width: 748px;
+    max-width: 100%;
   }
 
+  #img-gal{
+    width: 97%;
+  }
 
+  .work{
+    max-width: 100%;
+    width: 47%;
+  }
   
-  .work {
-    width: 300px;
-  }
+  
 }
 
 
@@ -295,10 +300,12 @@ input[type=submit] {
     padding: 10px;
   }
 
-  
+  #img-gal{
+    width: 100%;
+  }
   
   .work {
-    width: 557px;
+    width: 100%;
   }
 
   .main-section{
