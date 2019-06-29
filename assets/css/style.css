@@ -248,7 +248,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   .main-section{
-    max-width: 100%;
+    width: 100%;
   }
 
   #img-gal{
@@ -269,10 +269,12 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   .main-section{
     max-width: 620px;
+    width: 100%;
+    overflow: auto;
   }
 
   .auth-image {
-    width: 557px;
+    width: 100%;
   }
 
   #masthead{
@@ -308,12 +310,11 @@ input[type=submit] {
     width: 100%;
   }
 
-  .main-section{
-    overflow: auto;
-  }
+ 
 
   #main-container{
     padding-top: 20px;
+    width:100%;
   }
 
 
